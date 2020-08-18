@@ -1,0 +1,240 @@
+[2020-07-20T16:24:54.569] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:66:26)
+    at async module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:5) {
+  originalError: JsonWebTokenError: invalid signature
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:133:19
+      at getSecret (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:5:23
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+}
+[2020-07-20T16:26:21.787] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:66:26)
+    at async module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:5) {
+  originalError: JsonWebTokenError: invalid signature
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:133:19
+      at getSecret (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:5:23
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+}
+[2020-07-20T16:26:57.671] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:66:26)
+    at async module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:5) {
+  originalError: JsonWebTokenError: invalid signature
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:133:19
+      at getSecret (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:5:23
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+}
+[2020-07-20T16:27:23.821] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:66:26)
+    at async module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:5) {
+  originalError: JsonWebTokenError: invalid signature
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:133:19
+      at getSecret (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:5:23
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+}
+[2020-07-20T17:13:43.414] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:43.540] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:45.073] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:45.104] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:46.350] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:46.381] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:47.378] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:47.409] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:47.635] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:47.666] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:48.580] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:48.602] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:48.768] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:13:48.798] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:16:02.282] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)
+[2020-07-20T17:16:02.305] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\middleware\better-err-handle.js:6:11)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:168:12)
+    at Server.handleRequest (C:\Users\shs-xxaqbzyzb\Desktop\koa-common-api\koa-js-api\node_modules\koa\lib\application.js:150:19)
+    at Server.emit (events.js:315:20)

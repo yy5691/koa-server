@@ -1,0 +1,229 @@
+[2020-07-23T13:34:57.262] [ERROR] application - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async module.exports (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\middleware\better-err-handle.js:6:5) {
+  originalError: TokenExpiredError: jwt expired
+      at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\jsonwebtoken\verify.js:152:21
+      at getSecret (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\jsonwebtoken\verify.js:90:14)
+      at Object.module.exports [as verify] (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\jsonwebtoken\verify.js:94:10)
+      at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-jwt\lib\verify.js:5:23
+      at new Promise (<anonymous>)
+      at module.exports (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-jwt\lib\verify.js:4:12)
+      at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-jwt\lib\index.js:38:64
+      at Array.map (<anonymous>)
+      at jwt (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-jwt\lib\index.js:38:43)
+      at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-unless\index.js:29:12 {
+    expiredAt: 2020-07-22T11:54:36.000Z
+  }
+}
+[2020-07-23T13:39:46.620] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:39:53.563] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:41:21.134] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:42:42.971] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:43:51.505] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:45:29.991] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:49:06.882] [ERROR] application - Error: WHERE parameter "name" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2258:13)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2247:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2245:35)
+    at MySQLQueryGenerator.getWhereConditions (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2663:19)
+    at MySQLQueryGenerator.selectQuery (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1316:28)
+    at MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:939:27)
+    at Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:47)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+[2020-07-23T13:55:07.765] [ERROR] application - ReferenceError: moment is not defined
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\models\user.js:18:7)
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:3453:41)
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:3487:33)
+    at User.toJSON (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:4356:12)
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa\lib\response.js:213:35)
+    at assembleTokens (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:161:18)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:96:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async bodyParser (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-bodyparser\index.js:95:5)
+[2020-07-23T13:55:10.193] [ERROR] application - ReferenceError: moment is not defined
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\models\user.js:18:7)
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:3453:41)
+    at User.get (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:3487:33)
+    at User.toJSON (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:4356:12)
+    at JSON.stringify (<anonymous>)
+    at Object.get length [as length] (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa\lib\response.js:213:35)
+    at assembleTokens (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:161:18)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:96:30
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async bodyParser (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-bodyparser\index.js:95:5)
+[2020-07-23T13:59:45.250] [ERROR] application - DatabaseError [SequelizeDatabaseError]: Unknown column 'phoneNumber' in 'field list'
+    at Query.formatError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.run (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\mysql\query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:938:12)
+    at async Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:21)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+    at async Object.getUserInfo (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\service\userService.js:4:11)
+    at async getUserInfo (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\controller\userController.js:5:15)
+    at async C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:86:7 {
+  parent: Error: Unknown column 'phoneNumber' in 'field list'
+      at Packet.asError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
+      at readableAddChunk (_stream_readable.js:278:9)
+      at Socket.Readable.push (_stream_readable.js:217:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'phoneNumber' in 'field list'",
+    sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'phoneNumber' in 'field list'
+      at Packet.asError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
+      at readableAddChunk (_stream_readable.js:278:9)
+      at Socket.Readable.push (_stream_readable.js:217:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'phoneNumber' in 'field list'",
+    sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+    parameters: undefined
+  },
+  sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+  parameters: undefined
+}
+[2020-07-23T14:01:23.673] [ERROR] application - DatabaseError [SequelizeDatabaseError]: Unknown column 'phoneNumber' in 'field list'
+    at Query.formatError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\mysql\query.js:239:16)
+    at Query.run (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\mysql\query.js:54:18)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\sequelize.js:619:16
+    at async MySQLQueryInterface.select (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:938:12)
+    at async Function.findAll (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1741:21)
+    at async Function.findOne (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\sequelize\lib\model.js:1905:12)
+    at async Object.login (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\service\authService.js:16:21)
+    at async login (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\controller\authContoller.js:5:20)
+    at async C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:86:7 {
+  parent: Error: Unknown column 'phoneNumber' in 'field list'
+      at Packet.asError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
+      at readableAddChunk (_stream_readable.js:278:9)
+      at Socket.Readable.push (_stream_readable.js:217:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'phoneNumber' in 'field list'",
+    sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `address`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+    parameters: undefined
+  },
+  original: Error: Unknown column 'phoneNumber' in 'field list'
+      at Packet.asError (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packets\packet.js:712:17)
+      at Query.execute (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\commands\command.js:28:26)
+      at Connection.handlePacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:417:32)
+      at PacketParser.onPacket (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:75:12)
+      at PacketParser.executeStart (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\mysql2\lib\connection.js:82:25)
+      at Socket.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:302:12)
+      at readableAddChunk (_stream_readable.js:278:9)
+      at Socket.Readable.push (_stream_readable.js:217:10) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'phoneNumber' in 'field list'",
+    sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `address`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+    parameters: undefined
+  },
+  sql: "SELECT `id`, `username`, `password`, `phoneNumber`, `address`, `createdAt`, `updatedAt` FROM `users` AS `user` WHERE `user`.`username` = 'admin2' LIMIT 1;",
+  parameters: undefined
+}
+[2020-07-23T14:12:09.322] [ERROR] application - ReferenceError: user is not defined
+    at Object.register (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\service\authService.js:9:75)
+    at register (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\controller\authContoller.js:8:38)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-router\lib\router.js:368:16
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-router\lib\router.js:373:31)
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (C:\Users\shs-xxaqbzyzb\Desktop\mine\koa-js-api\node_modules\koa-compose\index.js:42:32)
